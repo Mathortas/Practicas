@@ -19,7 +19,7 @@ void Time::setHour(int h) {
  hour = h;
  }
  else {
- throw invalid_argument("hour must be 0-23");
+ throw invalid_argument("Revisa bien tu hora (0-23)");
  }
  }
  void Time::setMinute(int m) {
